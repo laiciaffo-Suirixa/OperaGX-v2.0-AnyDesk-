@@ -16,7 +16,7 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 1
     env:
-      ANYDESK_PASS: Pass1234
+      ANYDESK_PASS: Pass@1234
       RUNTIME_MINUTES: 9999999
 
     steps:
