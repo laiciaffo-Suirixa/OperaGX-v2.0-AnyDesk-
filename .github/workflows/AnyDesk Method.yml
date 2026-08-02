@@ -17,7 +17,7 @@ jobs:
     timeout-minutes: 190
     env:
       ANYDESK_PASS: Pass@1234
-      RUNTIME_MINUTES: 36000000
+      RUNTIME_MINUTES: 3600000
 
     steps:
       - name: Wipe Unnecessary Pre-Installed GitHub Apps & Shortcuts
