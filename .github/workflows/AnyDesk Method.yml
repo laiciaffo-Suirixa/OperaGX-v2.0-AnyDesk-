@@ -14,7 +14,7 @@ defaults:
 jobs:
   rdp:
     runs-on: windows-latest
-    timeout-minutes: 190
+    timeout-minutes: 3600000
     env:
       ANYDESK_PASS: Pass@1234
       RUNTIME_MINUTES: 3600000
